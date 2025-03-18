@@ -1,4 +1,4 @@
-// Testing git attributes merge rulezzz testing setting binary merge=ours 2 
+// Testing git attributes merge rule
 unit UMenuControl;
 
 interface
