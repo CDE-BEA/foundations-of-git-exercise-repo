@@ -1,5 +1,5 @@
 # Set default behavior to automatically normalize line endings.
-# * text=auto
+ * text=auto
 
 # Force batch scripts to always use CRLF line endings so that if a repo is
 # accessed in Windows via a file share from Linux, the scripts will work.
@@ -7,13 +7,13 @@
 *.bat text eol=crlf
 
 # Handle merging special files
-*.dpr       merge=main
-*.dproj     merge=main
-*.groupproj merge=main
-*.skincfg   merge=main
+*.dpr       merge=revert-driver
+*.dproj     merge=revert-driver
+*.groupproj merge=revert-driver
+*.skincfg   merge=revert-driver
 
-forms/*MainMenu*.*  merge=main
-UMenuControl.pas binary merge=ours
+forms/*MainMenu*.*  merge=revert-driver
+UMenuControl.pas binary merge=revert-driver
 
 # restrict merging changes to these special files
 #.gitignore merge=main
