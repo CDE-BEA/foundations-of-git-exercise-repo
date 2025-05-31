@@ -1,4 +1,4 @@
----
+welcome and goodby---
 
 title: Commit Signing with gpg
 description: Learn how to create GPG keys and sign your commits in GitKraken Client
